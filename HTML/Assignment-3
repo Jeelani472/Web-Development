@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+
+<body>
+    <!-- Qs1.Recreate the following table using HTML -->
+     <table border="black">
+        <caption>Student information</caption>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+           <tr>
+            <td>City</td>
+            <td>House</td>
+           </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+     </table> 
+
+    <!-- Qs2.Recreate the following form using HTML:-->
+    <form action="/action">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="gender">Sex</label>
+        <input type="radio" name="gender" id="gender" value="M">Male
+        <input type="radio" name="gender" id="gender" value="F"> Female
+        <br>
+        <br>
+        <label for="Country">Country:</label>
+        <select name="Country" id="Country">
+            <option value="select" selected>select an option</option>
+            <option value="India">India</option>
+            <option value="Usa">Usa</option>
+            <option value="China">China</option>
+            <option value="pakistan">pakistan</option>
+        </select>
+        <br>
+        <br>
+        <label for="feedback">Message:</label><br>
+        <textarea name="feedback" id="feedback" cols="30 " rows="4"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="Subscribe" id="Subscribe">
+        <label for="Subscribe">Subscribe?</label>
+        <br>
+        <br>
+        <button>Submit </button>
+    </form> 
+
+    <!-- Q3.Recreate the following form using HTML:-->
+     <h2>Feedback Form</h2>
+    <form action="/server.php">
+        <label for="name">Name:</label>
+        <input type="text" name="username" id="name" placeholder="Write your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Write your email">
+        <br><br>
+        <label for="feedback">Message:</label><br>
+        <textarea name="feedback" id="feedback" rows="4" cols="30"></textarea>
+        <br><br>
+        <label for="rating">Rate us out of 5:</label>
+        <br>
+        <input type="radio" name="rating" id="rating" value="1">1 <br>
+        <input type="radio" name="rating" id="rating" value="2">2 <br>
+        <input type="radio" name="rating" id="rating" value="3">3 <br>
+        <input type="radio" name="rating" id="rating" value="4">4 <br>
+        <input type="radio" name="rating" id="rating" value="5">5 <br>
+        <br><br> <button>Send your Message!</button>
+    </form>
+</body>
+
+</html>
