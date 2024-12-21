@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+<body>
+    <!-- Qs1.Print the following using HTML tags : Today is the 9th of October and 2^4=16 always -->
+    <h1>Today is the 9<sup>th</sup> of October and 2<sup>4</sup>=16 always</h1>
+
+    <!-- Qs2.Print the symbols for copy right & trade mark on your webpage.-->
+     <p>&copy;</p>
+     <p>Get 1 free MyProduct™ with every 5 MyOtherProduct™ sold!</p>
+
+     <!-- Qs3.Is video tag a semantic tag ? -->
+     <!-- the <video> tag does not provide any semantic meaning about the content it contains. 
+     It simply specifies that the content is a video, without indicating the purpose or context of
+     the video within the document.Therefore, while the <video> tag is useful for embedding video content, 
+     it does not contribute to the semantic structure of the web page. -->
+
+     
+</body>
+</html>
