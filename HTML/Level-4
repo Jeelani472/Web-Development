@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms </title>
+</head>
+
+<body>
+    <!-- Table Creation -->
+    <table border="black">
+        <caption>Fruits Menu</caption>
+        <!-- Table Head -->
+        <thead>
+            <tr>
+                <td>Item</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Mango</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+    <!-- Html Forms -->
+    <form action="/action">
+        <label for="username">Enter your Your Name:</label>
+     <input type="text" id="username" name="username"placeholder="Enter username"><br>
+     <label for="age">Enter your age</label>
+     <input type="number" name="age" id="age" placeholder="Enter your age"><br>
+     <label for="gender">Enter your Gender:</label>
+     Male<input type="radio" name="Gender" id="gender" >
+     Female<input type="radio" name="Gender" id="gender" value="female">
+     Others<input type="radio" name="Gender" id="gender" value="others"><br>
+     <label for="City">Pls select your city</label>
+     <select name="City" id="City">
+        <option value="mumbai" selected>Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Others">Others</option>
+     </select><br>
+     <label for="feedback">Plz write your feedback:</label>
+     <textarea name="feedback" id="feedback"></textarea>
+     <button type="submit">Submit</button>
+    </form>
+
+    <form action="https://www.bing.com/search?">
+        <label for="search">Enter your search</label>
+        <input type="text" name="q" id="search">
+        <br>
+        <br>
+        <button>Search it </button>
+    </form>
+</body>
+
+</html>
