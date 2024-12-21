@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Entities</title>
+</head>
+<body>
+    <!-- Inline Element : Takes up only neccessary width -->
+    <p>Paragraph tag is a Inline Element</p>
+    <a href="https://google.com">Click to open Google</a>
+    <span>Span tag is also a Inline Element</span>
+    <img src="https://www.bing.com/th?id=OIP.vrYkSBzCCnltmiX87NvVgAHaEK&w=314&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Virat Kohli">
+     
+    <!-- Block Element : Takes up full width avaliable (whole block)-->
+     <h1>Heading tag is an Block Element</h1>
+     <div>Div tag and body tag is an Block Element</div>
+
+     <!-- Html Entities :It is a markup that relates to the meaning of content,this are special charaters -->
+      <!-- It start with & and ends with semicolon -->
+      <h1> Made by me &hearts;</h1>
+      <p>a&gt;b</p>
+    <p>&amp;</p>
+    <h1>The Sky is Cloudy &#9729; &amp; it will Rain &#9748; Today</h1>
+
+    <!-- Emmet :It is a Essential tool for web developer and it generates shortcut code -->
+     <!-- 1.Child :> ex:p>div-->
+     <p>
+        <div></div>
+     </p>
+     <!-- 2.Siblings: + ex:div+p+h1-->
+      <div></div>
+      <p></p>
+      <h1></h1>
+      <!-- 3.Multiplication : * ex: ul>li*4 -->
+       <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+       </ul>
+ 
+</body>
+</html>
