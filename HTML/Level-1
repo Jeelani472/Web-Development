@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tags</title>
+</head>
+<body>
+    <!-- Heading tag:It is used to add headings  -->
+    <h1>This is the most heading tag</h1>
+    <h2>This is also the heading tag</h2>
+    <h3>This is also the heading tag</h3>
+    <h4>This is also the heading tag</h4>
+    <h5>This is also the heading tag</h5>
+    <h6>This is also the heading tag</h6>
+
+    <!-- Paragraph tag:It is used to add paragraph  -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum porro molestiae repellendus quo enim blanditiis
+        architecto adipisci deserunt tenetur consequuntur est minus recusandae eius similique cumque reprehenderit,
+        veritatis soluta omnis.</p>
+    <p>The is the paragraph</p>
+
+    <!-- Anchor tag: It is used to add links to anm existing content-->
+     <a href="https://google.com">Click me Google</a>
+
+     <!-- Image tag: It is used to add image in an html page-->
+      <img src="https://www.bing.com/th?id=OIP.vrYkSBzCCnltmiX87NvVgAHaEK&w=314&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Virat Kohli">
+      <br><br>
+
+<!-- Video tag -->
+      <video controls>
+        <source src="rabbit320.mp4" type="video/mp4" />
+        <source src="rabbit320.webm" type="video/webm" />
+        <p>
+          Your browser doesn't support this video. Here is a
+          <a href="rabbit320.mp4">link to the video</a> instead.
+        </p>
+      </video>
+      
+      <!-- Bold,Italic,Underline tag -->
+       <b>This is bold tag</b><br>
+       <br>
+       <italic> This is italic tag</italic><br><br>
+        <underline>This is underline tag</underline>
+
+        <!-- This is break tag:It is used to create  line break in an html page-->
+         <br>
+
+        <!--subscript:It is like base and ex:H20. Superscript:It is like power,ex:a2+b2=c2  -->
+        H<sub>2</sub>O
+        A<sup>2</sup>+B<sup>2</sup>=C<sup>2</sup>
+
+         <!-- Pre tag -->
+         <pre> This is written 
+            using pre tag or rendered contnt as it is
+         </pre>
+         <!-- This is a comments line and this should not  be parsed-->
+</body>
+</html>
