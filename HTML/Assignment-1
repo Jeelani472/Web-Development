@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+<body>
+    <!--Qs1. Use the correct HTMLtag to add a paragraph with the text "HelloWorld!" -->
+     <p>Hello World!</p>
+
+     <!--Qs2. Mark up the text with appropriate tags:
+      "Delta”is the most important heading.
+      "Full Stack Web Development" is the next most important heading.
+      "MERN Stack" is the third most important heading.
+      The last sentence is just a paragraph.
+      Start with the most important heading(the largest) and end with the least important heading(thesmallest -->
+      <h1>Delta</h1>
+      <h2>Full Stack Web Development</h2>
+      <h3>MERN Stack</h3>
+      <p>Let's begin our learning journey!</p>
+
+      <!-- Qs3.Create a click able link that redirects to the url:https://www.apnacollege.in/ -->
+      <a href="https://www.apnacollege.in/">Go to Apna College </a>
+
+      <!-- Qs4.You are given the rank list offer students,create an ordered HTML list to display the list given below:
+       1.Deepak 
+       2.Epsita
+       3.Lakshita
+       4.Tanmay
+       5.Agrim -->
+
+       <ol>
+        <li>Deepak</li>
+        <li>Epsita</li>
+        <li>Lakshita</li>
+        <li>Tanmay</li>
+        <li>Agrim</li>
+       </ol>
+
+</body>
+</html>
