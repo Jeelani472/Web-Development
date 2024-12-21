@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
     <!-- Qs1.Recreate the following table using HTML -->
      <table border="black">
         <caption>Student information</caption>
