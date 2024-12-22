@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Inline CSS:CSS is added to  elements directly using style attribute -->
+    <!-- <h1 style="color: green;">Hi there!</h1>
+    <p style="color: blue;">my mom is Tom & i am there to help you</p>
+    <button style="background-color: blue;color: black;">Need Help</button> -->
+    <!-- Internal CSS: CSS is kept inside the head tag -->
+
+    <h1>Avengers the End</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempora deleniti voluptatibus libero esse iste
+        corporis adipisci consequuntur cupiditate, dolorum temporibus iusto sint! At officia ratione atque, sit est
+        eligendi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident beatae fugit, praesentium sunt
+        recusandae voluptates amet veritatis ducimus odit, reprehenderit natus nobis voluptatem cupiditate? Ullam libero
+        deserunt facere cumque? Repudiandae.</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempora deleniti voluptatibus libero esse iste
+        corporis adipisci consequuntur cupiditate, dolorum temporibus iusto sint! At officia ratione atque, sit est
+        eligendi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident beatae fugit, praesentium sunt
+        recusandae voluptates amet veritatis ducimus odit, reprehenderit natus nobis voluptatem cupiditate? Ullam libero
+        deserunt facere cumque? Repudiandae.</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempora deleniti voluptatibus libero esse iste
+        corporis adipisci consequuntur cupiditate, dolorum temporibus iusto sint! At officia ratione atque, sit est
+        eligendi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident beatae fugit, praesentium sunt
+        recusandae voluptates amet veritatis ducimus odit, reprehenderit natus nobis voluptatem cupiditate? Ullam libero
+        deserunt facere cumque? Repudiandae.</p>
+
+    <h2>Apna College</h2>
+
+</body>
+
+</html>
