@@ -1,0 +1,90 @@
+/* element selector */
+h1{
+    color: brown;
+}
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* id selector */
+#login{
+    background-color: skyblue;;
+}
+#signup{
+    background-color: red;
+    color: wheat;
+}
+/* class selector */
+.follow{
+    text-decoration: none;
+    color: blue;
+}
+
+/* group selector */
+h1,p,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* descendent selector */
+header  a{
+    color: black;
+
+}
+/* sibling combinator */
+p+h3{
+    color: rgb(44, 70, 70);
+    font-weight: bold;
+}
+/* child combinator */
+nav > ul{
+    color: brown;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: rgb(255, 230, 0);
+}
+input[type]{
+    color: rgb(15, 203, 140);
+}
+
+/* pseudo class */
+
+h1 button:hover{
+ color: aquamarine;
+}
+
+span button:active{
+    background-color:rgb(212, 131, 31);
+}
+
+ input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+
+/* div:nth-of-type(2){
+    background-color: rgb(60, 136, 143);
+}
+div:nth-of-type(2n){
+    background-color: rgb(60, 136, 143);
+} 
+ div:nth-of-type(1n){
+    background-color: rgb(60, 136, 143);
+} */
+
+/* div:nth-last-child(2n+1){
+    background-color: rgb(60, 136, 143);
+} */
+
+/* Pseudo Element */
+
+.lastpara::first-letter{
+color: yellow;
+}
+.lastpara::first-line{
+    color: brown;
+}
+.lastpara::selection{
+    background-color: rgb(187, 49, 49);
+}
