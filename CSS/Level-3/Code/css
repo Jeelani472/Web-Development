@@ -1,0 +1,40 @@
+div{
+/* border : border-width border-style  */
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    /* padding:4 sides */
+      padding: 10px;
+      margin-bottom:10px;
+      border-radius: 10px;
+}
+
+button{
+    border-radius:6px ;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+.boxes{
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: inline-block;
+}
+#outer{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#inner{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 1em;
+}
