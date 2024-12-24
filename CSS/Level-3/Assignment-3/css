@@ -1,0 +1,22 @@
+.container{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1rem;
+    margin-bottom: 40px;
+    margin-left: 2rem;
+    padding: 1em;
+}
+
+.divs{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+ul li{
+    display: inline;
+}
