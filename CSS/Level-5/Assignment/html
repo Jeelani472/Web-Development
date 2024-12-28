@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment on CSS Flexbox</title>
+    <link rel="stylesheet" href="Assignment.css">
+</head>
+
+<body>
+    <!-- Question-1 -->
+
+    <!-- <div class="container">
+        <div class="boxes">A</div>
+        <div class="boxes">B</div>
+        <div class="boxes">C</div>
+        <div class="boxes">D</div>
+        <div class="boxes">E</div>
+        <div class="boxes">F</div>
+        <div class="boxes">G</div>
+        <div class="boxes">H</div>
+        <div class="boxes">I</div>
+    </div> -->
+
+    <!-- Question-2 -->
+        <div class="navbar">
+           <div class="text">logo</div>
+           <div class="text"> Home</div>
+           <div class="text">About</div>
+           <div class="text">Contact</div> 
+        </div>
+</body>
+
+</html>
