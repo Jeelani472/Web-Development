@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment On CSS Grid</title>
+    <link rel="stylesheet" href="Assignment.css">
+</head>
+<body>
+    <!-- <div class="container">
+         <div id="header">header</div>
+         <div id="sidebar">sidebar</div>
+         <div id="navigation">navigation</div>
+         <div id="ads">ads</div>
+         <div id="main">main</div>
+         <div id="footer">footer</div> -->
+
+         <h1>Loader</h1>
+         <div class="loader">
+
+         </div>
+    </div>
+</body>
+</html>
