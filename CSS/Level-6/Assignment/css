@@ -1,0 +1,78 @@
+.container{
+    padding:0;
+    height: 100vh;
+    margin: 0 ;
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 12px;
+}
+.container div{
+    font-size: 1.5rem;
+    background-color: pink;
+}
+#header{
+    grid-column: 1/ span 12;
+}
+#sidebar{
+    grid-row: 2/ span 10;
+    grid-column: 1/ span 3;
+}
+#navigation{
+    grid-column: 4/span 6 ;
+}
+#ads{
+    grid-column: 10/span 3;
+    grid-row: 2/span 10;
+}
+#main{
+    grid-row:3/ span 9 ;
+    grid-column: 4/span 6;
+}
+
+#footer{
+    grid-column: 1/ span 12;
+}
+@media  (max-width:720px){
+    #header
+    {
+        grid-column: 1 /span 12;
+    }
+    #sidebar{
+        grid-row: 3/ span 9;
+        grid-column: 1/ span 3;
+    }
+    #navigation{
+        grid-row: 2/3;
+        grid-column:1 /span 12 ;
+    }
+    #main{
+        grid-column: 4/ span 9;
+        grid-row: 3/ span 10;
+    }
+    #ads{
+        grid-column: 1/span 3;
+        grid-row: 12/span 2 ;
+    }
+    #footer{
+        grid-column: 4/ span 9;
+        grid-row:12  ;
+    }
+}
+
+.loader{
+    border: 16px solid #f3f3f3;
+     border-radius: 50%;
+    border-top: 16px solid goldenrod; 
+    width: 120px;
+    height: 120px;
+    animation:spin 2s linear infinite ;
+}
+@keyframes spin {
+    0%{
+  transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
