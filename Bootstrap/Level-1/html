@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons,Badge,Alert Components</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque praesentium in eius laborum obcaecati vel.
+            Quam in quisquam praesentium minus quo, saepe, iure dolorum ad quis eos nam sunt rerum. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Voluptatibus quia consectetur ullam iste, assumenda nihil odit dolore
+            inventore sequi sint pariatur, optio tempore, error hic dolor. Expedita eveniet veritatis harum repudiandae
+            deserunt quia, veniam neque natus! Sapiente quaerat odit eligendi quas nihil itaque earum possimus, a,
+            molestias at impedit facere libero magni. Tempore, incidunt, voluptate voluptas eius sunt vel ut deserunt
+            harum vitae ratione quas mollitia quis expedita porro illum error perferendis voluptatibus sed, inventore
+            voluptates? Earum commodi accusamus numquam corporis voluptatibus tempore eveniet explicabo et dolorem,
+            autem sequi voluptates qui repellat quod esse ipsa enim impedit atque at facere eaque? Alias labore aliquid,
+            suscipit nam pariatur voluptatem earum ullam libero eos repellat cum necessitatibus quaerat odio et nesciunt
+            in voluptate laudantium nihil quas culpa dolor deserunt maiores aspernatur molestiae. Quibusdam, dolorum
+            doloribus. Eaque natus commodi accusantium earum facilis. Praesentium nam repellat vitae.</p>
+            <button>Click Me</button>
+            <button class="btn btn-primary btn-md">Click Me</button>
+            <a class="btn btn-secondary btn-sm" href="https://google.com" target="_blank">  Click Me</a>
+            <button class="btn btn-outline-info btn-lg">Outline Buttons</button>
+            <button class="btn-badge bg-secondary">Badge</button>
+            <button class="btn btn-primary position-relative">Inbox<span class="Badge bg-primary position-absolute top-0 translate-middle rounded-pill bg-danger start-100 ">99+</span></button> 
+
+            <div class="alert alert-danger ">Download Failed Please try again!</div>
+            
+            <div class="btn-group">
+                <button class="btn btn-primary">Button-1</button>
+                <button class="btn btn-secondary">Button-2</button>
+                <button class="btn btn-danger">Button-3</button>
+                <button class="btn btn-warning">Button-4</button>
+            </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
