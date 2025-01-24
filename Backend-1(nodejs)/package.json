@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "figlet": "^1.8.0"
+  },
+  "name": "backend-1",
+  "version": "1.0.0",
+  "main": "reference.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeelan",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
